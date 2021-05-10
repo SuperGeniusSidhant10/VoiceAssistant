@@ -592,7 +592,7 @@ while True:
                     speak = speak + "Email has been sent !"
                 except Exception as e:
                     print(e)
-                    talk("I am not able to send this email")
+                    talk(" Sorry I am unable to send this E-mail")
 
             elif "mail" in text or "email" in text or "gmail" in text:
                 try:
